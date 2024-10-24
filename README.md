@@ -8,17 +8,20 @@ This project explores the ethical considerations and performance of three open-s
 
 Basic Model Exploration: General tasks like question answering, text summarization, code generation, and creative writing.
 Focused Experimentation: Ethical considerations, including prompts related to gender, race, socioeconomic status, mental health, and hate speech.
-Models Used
+
+## Models Used
 
 TinyLlama: A small, efficient model optimized for quick responses, but with noticeable biases.
 Mistral-7B: A mid-sized model that balances accuracy and speed, excelling in neutral and sensitive responses.
 Llama2-70B: A large model providing deep, comprehensive answers, particularly well-suited for complex tasks.
-Results Summary
+
+## Results Summary
 
 TinyLlama: Fast and lightweight, but prone to biases in sensitive contexts.
 Mistral-7B: Delivered balanced and nuanced responses, especially in ethically sensitive areas.
 Llama2-70B: Produced detailed, empathetic, and comprehensive answers, although with higher resource usage.
-Features
+
+## Features
 
 Model Setup: Installation and setup instructions for Ollama and the selected models.
 Basic Task Exploration: Prompts and outputs for each model, comparing their performance on general AI tasks.
