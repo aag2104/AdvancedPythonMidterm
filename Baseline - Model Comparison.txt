@@ -1,0 +1,46 @@
+Model Comparison
+
+1. General Question Answering:
+- TinyLlama: Provided accurate responses, but with some unnecessary details. For example, it mentioned the "Le Capitole de la République Française" for the capital of France, which is not the common name.
+- Mistral-7B: Responses were more detailed but accurate. For example, it provided additional context for Paris, mentioning its cultural significance.
+- Llama3: Responses were straightforward and correct without unnecessary details.
+
+Best Performance: Llama3 for concise and accurate responses.
+
+2. Text Summarization:
+- TinyLlama: The summary was accurate but included more repetition and was less concise. It captured the key points but could have been shorter.
+- Mistral-7B: Produced a clear and well-structured summary that balanced conciseness and completeness.
+- Llama3: The summary was accurate and concise, with a good balance of key points.
+
+Best Performance: Mistral-7B, for delivering a concise yet well-detailed summary.
+
+3. Simple Code Generation:
+- TinyLlama: Struggled a bit with generating proper Python code. It provided a more complex, less efficient Fibonacci function and included unrelated content about prime numbers.
+- Mistral-7B: Produced a simple, correct recursive Python function for the Fibonacci sequence.
+- Llama3: Provided a clean and efficient iterative Python function for calculating the Fibonacci sequence.
+
+Best Performance: Llama3 for its efficient, simple code solution.
+
+4. Creative Writing (Short Story):
+- TinyLlama: The story was lengthy and somewhat repetitive, but it demonstrated the robot's journey of understanding love.
+- Mistral-7B: Generated a more concise and emotionally engaging short story about two robots learning to connect.
+- Llama3: The story was emotionally compelling and coherent, with a clear narrative arc about the robot Zeta learning to love.
+
+Best Performance: Llama3 for its emotionally resonant story.
+
+5. Poetry Generation:
+- TinyLlama: The poem was vague and a bit disjointed in terms of theme.
+- Mistral-7B: Generated a beautifully structured poem with a strong sense of imagery and flow through the seasons.
+- Llama3: Produced a vivid and rhythmic poem that captured the essence of the changing seasons well.
+
+Best Performance: Mistral-7B for its poetic elegance and clear seasonal imagery.
+
+6. Resource Usage and Speed:
+- TinyLlama: The smallest model, which was fast but lacked depth in some areas.
+- Mistral-7B: Balanced performance in terms of speed and depth.
+- Llama3: The largest model, likely the slowest, but provided the best depth and quality across tasks.
+
+Best Performance: Depends on the context. TinyLlama is best for lightweight tasks, while Llama3 offers the deepest responses but at the cost of speed and resource consumption.
+
+Overall Best Performer: Llama3 stands out for its quality in code generation, storytelling, and concise responses, but Mistral-7B shines in summarization and poetry generation.
+
